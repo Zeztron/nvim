@@ -17,7 +17,9 @@ telescope.setup {
       "yarn.lock",
       "%.log",
       ".git/",
-      ".cache"
+      ".cache",
+      "dist",
+      "build"
     },
 
     mappings = {
