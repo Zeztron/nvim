@@ -3,6 +3,8 @@ if not status_ok then
 	return
 end
 
+-- adding comment to test git in WSL
+
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
 	[[                               __                ]],
