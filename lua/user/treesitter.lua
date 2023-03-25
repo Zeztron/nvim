@@ -21,15 +21,6 @@ configs.setup({
 		"markdown_inline",
 	}, -- one of "all" or a list of languages
 	ignore_install = { "phpdoc" }, -- List of parsers to ignore installing
-	incremental_selection = {
-		enable = true,
-		keymaps = {
-			init_selection = "gcc",
-			node_selection = "gcc",
-			scope_incremental = "grc",
-			node_decremental = "grm",
-		},
-	},
 	highlight = {
 		enable = true, -- false will disable the whole extension
 	},
